@@ -1,0 +1,96 @@
+ @font-face{
+    font-family: MicoBold;
+    src: url(fonts/Miso.woff);
+}
+@font-face{
+    font-family: MicoLatoLight;
+    src: url(fonts/MisoLatoLight.woff);
+}
+ * {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	/* transition: all .3s ease-in-out; */
+ }  
+body, html {
+	 background-color: #fdde7e; 
+	 /* padding: 0; */
+	 /* justify-content: center; */
+	 
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	min-width: 360px;
+	margin: 0 auto;
+	padding-top: 10vw; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+h1 {
+	font-family: MicoBold;
+	color: #02995b;
+	font-size: 70px;
+	padding-top: 40px;
+}
+h1.gol-d{
+	padding-top: 55px;
+}
+
+img {
+	padding-top: 20px;
+	
+}
+h2 {
+	font-size: 56px;
+	padding-top: 25px;
+	font-family: MicoBold;
+	font-weight: 300;
+
+}
+h2.gol-d {
+	padding-top: 35px;
+}
+h3 {
+	font-size: 20px;
+	padding-top: 15px;
+	font-family: MicoLatoLight;
+	font-weight: 100;
+}
+
+.bronze  {
+	height: 450px;
+	width: 30%;
+	margin: 0 15px ;
+	background-color: #fff;
+	border-radius: 3px;
+	
+
+	
+}
+.gold { 	
+	height: 500px;
+	width: 30%;
+	margin: 0 15px;
+	background-color: #fff;
+	border-radius: 3px;
+	
+}
+
+.silver {
+	height: 450px;
+	width: 30%; 
+	margin: 0 15px;
+	background-color: #fff;
+	border-radius: 3px;	
+	
+}
+
+
+
